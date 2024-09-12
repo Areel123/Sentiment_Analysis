@@ -10,6 +10,15 @@ import subprocess
 import sys
 import os
 
+# Ensure NLTK data is available
+def ensure_nltk_data():
+    try:
+        nltk.data.find('corpora/stopwords')
+    except LookupError:
+        nltk.download('stopwords')
+
+ensure_nltk_data()
+
 stopwords_set = set(stopwords.words('english'))
 emoticon_pattern = re.compile(r'(?::|;|=)(?:-)?(?:\)|\(|D|P)')
 
@@ -54,9 +63,7 @@ def open_browser():
 
 if __name__ == '__main__':
     if os.name == 'nt':
-        # Windows
         threading.Thread(target=open_browser).start()
     else:
-        # Unix-like
         threading.Thread(target=open_browser).start()
     app.run(debug=True, use_reloader=False)
