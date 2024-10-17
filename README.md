@@ -1,2 +1,9 @@
-The Sentiment Analysis Web Application is a Flask-based project designed to perform sentiment analysis on user-submitted comments. Leveraging Natural Language Processing (NLP) with NLTK, the application preprocesses text by tokenizing, stemming, and removing stopwords. A logistic regression model, trained with historical data, classifies comments into sentiment categories. The user-friendly interface allows input of comments and displays the sentiment results.
-Deployed on Render, a cloud platform for web applications, the deployment process includes defining dependencies in a requirements.txt file, downloading necessary NLTK data, and configuring the application to automatically open in a browser upon startup. The setup ensures a seamless user experience and easy accessibility of the sentiment analysis tool.
+# Sentiment Analysis Web App
+
+This **Sentiment Analysis Web App** is a Flask-based project that classifies user comments as positive or negative using a pre-trained machine learning model.
+
+## Features
+- User-friendly web interface for sentiment analysis.
+- Automatic text preprocessing (removes HTML tags, handles emoticons, stemming).
+- Displays sentiment results (positive or negative).
+- Automatically opens the browser when the app is launched.
