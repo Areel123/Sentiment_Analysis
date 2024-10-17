@@ -7,3 +7,10 @@ This **Sentiment Analysis Web App** is a Flask-based project that classifies use
 - Automatic text preprocessing (removes HTML tags, handles emoticons, stemming).
 - Displays sentiment results (positive or negative).
 - Automatically opens the browser when the app is launched.
+
+## Tech Stack
+- **Frontend:** HTML, CSS (for styling)
+- **Backend:** Flask (Python web framework)
+- **Machine Learning:** Scikit-learn, NLTK
+- **Data Processing:** TF-IDF vectorization
+- **Environment:** Python
