@@ -14,3 +14,6 @@ This **Sentiment Analysis Web App** is a Flask-based project that classifies use
 - **Machine Learning:** Scikit-learn, NLTK
 - **Data Processing:** TF-IDF vectorization
 - **Environment:** Python
+
+![1726141159312](https://github.com/user-attachments/assets/c8dd4ca9-9b2a-4017-a1f8-979bfaf10143)
+![1726141158961](https://github.com/user-attachments/assets/29b3d65d-bdd4-4fc6-8404-d710cb119823)
